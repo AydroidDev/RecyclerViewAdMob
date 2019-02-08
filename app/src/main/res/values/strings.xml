@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">RecyclerViewAdMod</string>
+
+    <string-array name="fruits_names">
+        <item>Apple</item>
+        <item>Apricot</item>
+        <item>Avocado</item>
+        <item>Banana</item>
+        <item>Blackberry</item>
+        <item>Cherry</item>
+        <item>Dates</item>
+        <item>Guava</item>
+        <item>Kiwi</item>
+        <item>Lemon</item>
+        <item>Mango</item>
+        <item>Papaya</item>
+    </string-array>
+
+    <string-array name="fruits_calories">
+        <item>49.0</item>
+        <item>51.6</item>
+        <item>190.0</item>
+        <item>95.0</item>
+        <item>25.25</item>
+        <item>39.0</item>
+        <item>107.4</item>
+        <item>68.0</item>
+        <item>49.0</item>
+        <item>18.0</item>
+        <item>57.0</item>
+        <item>26.1</item>
+    </string-array>
 </resources>
