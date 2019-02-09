@@ -1,4 +1,4 @@
-package br.com.alessanderleite.recyclerviewadmod;
+package br.com.alessanderleite.recyclerviewadmob;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

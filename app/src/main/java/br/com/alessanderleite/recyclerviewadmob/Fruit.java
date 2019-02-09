@@ -1,4 +1,4 @@
-package br.com.alessanderleite.recyclerviewadmod;
+package br.com.alessanderleite.recyclerviewadmob;
 
 public class Fruit {
 
