@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String BANNER_AD_ID = "ca-app-pub-3940256099942544/6300978111";
     private List<Object> recyclerItems = new ArrayList<>();
 
+    private RecyclerAdapter adapter;
     private RecyclerView recyclerView;
 
     @Override
@@ -36,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
         getFruits();
         getBannerAds();
         loadBannerAds();
+
+        adapter = new RecyclerAdapter(recyclerItems, this);
+        recyclerView.setAdapter(adapter);
     }
 
     private void getFruits() {
@@ -58,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             final AdView adView = new AdView(MainActivity.this);
             adView.setAdSize(AdSize.BANNER);
             adView.setAdUnitId(BANNER_AD_ID);
-            recyclerItems.add(adView);
+            recyclerItems.add(i, adView);
         }
     }
 
